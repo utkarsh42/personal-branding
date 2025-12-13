@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "driveRootFolderId": "1P7AjVdMXZjuAnaSQQ2IQ66w9Li3J7zq8",
+
+  "folderStructure": {
+    "docs": {
+      "folderId": "1P7AjVdMXZjuAnaSQQ2IQ66w9Li3J7zq8"
+    }
+  },
+
+  "syncRules": [
+    {
+      "comment": "Root markdown files → Personal Branding folder",
+      "localPath": "*.md",
+      "driveFolder": "docs"
+    },
+    {
+      "comment": "Subdirectory markdown files → Personal Branding folder",
+      "localPath": "**/*.md",
+      "driveFolder": "docs"
+    }
+  ],
+
+  "asana": {
+    "enabled": false
+  },
+
+  "fileNaming": {
+    "formatDisplayNames": true,
+    "customAcronyms": []
+  }
+}
