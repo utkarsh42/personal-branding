@@ -29,6 +29,38 @@ cp templates/building-in-public.md content/linkedin/drafts/YYYY-MM-DD-bip-week-X
 
 ---
 
+## Active Priorities
+
+| Priority | Task | Status |
+|----------|------|--------|
+| P0 | Weekly Building-in-Public posts (Fridays) | 🟢 Active |
+| P1 | LinkedIn content: 3-4 posts/week | 🟢 Active |
+| P1 | Twitter threads: 2-3/week | 🟡 Ramping |
+| P2 | Content pillar distribution balance | 🟡 Monitoring |
+
+---
+
+## Key Milestones
+
+| Milestone | Target | Status |
+|-----------|--------|--------|
+| **First 1,000 LinkedIn followers** | Q1 2026 | 🔴 Not started |
+| **Building-in-Public streak** | 8 weeks consecutive | 🔴 Not started |
+| **Twitter 500 followers** | Q2 2026 | 🔴 Not started |
+| **First viral post (10K+ views)** | Q1 2026 | 🔴 Not started |
+
+---
+
+## Blockers & Risks
+
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| **Consistency** | Content gaps hurt growth | Batch creation, content calendar |
+| **Time constraints** | Product work takes priority | Protected content blocks |
+| **Pillar imbalance** | Over-indexing on one topic | Monthly pillar audit |
+
+---
+
 ## Folder Structure
 
 ```
@@ -215,4 +247,4 @@ git push
 
 ---
 
-**Last Updated**: November 25, 2025
+**Last Updated**: 2026-01-05

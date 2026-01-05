@@ -304,3 +304,32 @@ cat calendar/content-calendar.md
 6. **File naming** - Always use YYYY-MM-DD-topic-name.md format
 7. **Template preservation** - Copy templates, never move them
 8. **Check before scheduling** - Run through quality checklist before moving to scheduled/
+
+## Session Management
+
+**Start**:
+1. Check content calendar: `cat calendar/content-calendar.md`
+2. Review drafts in progress: `ls -lt content/linkedin/drafts/`
+3. Check ideas for inspiration: `cat content/ideas/content-ideas.md`
+4. Decide session goal (create, edit, or publish)
+
+**End**:
+1. Commit all changes: `git add . && git commit -m "content: ..." && git push`
+2. Update content calendar if needed
+3. Move completed drafts to scheduled/ or published/
+4. Add any new ideas to content-ideas.md
+
+**Weekly Review (Fridays)**:
+- Create Building in Public post
+- Review content pillar distribution
+- Plan next week's content
+
+---
+
+## MCP Note
+
+MCP integrations are not applicable for this project. Content creation is manual with the primary output being Markdown files for LinkedIn and Twitter.
+
+---
+
+Last updated: 2026-01-05
