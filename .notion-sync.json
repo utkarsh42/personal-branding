@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "projectName": "personal-branding",
+  "displayName": "Personal Branding",
+  "teamspace": {
+    "name": "Utkarsh"
+  },
+  "syncRules": [
+    {
+      "localPath": "content/**/*.md",
+      "notionFolder": "Content",
+      "direction": "bidirectional"
+    },
+    {
+      "localPath": "final/**/*.md",
+      "notionFolder": "Published",
+      "direction": "push"
+    }
+  ],
+  "conflictResolution": {
+    "strategy": "latest-wins",
+    "backupBeforeOverwrite": true
+  },
+  "excludePatterns": [
+    "node_modules/**",
+    ".git/**",
+    "*.tmp",
+    "drafts/**"
+  ]
+}
