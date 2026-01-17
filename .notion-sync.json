@@ -3,7 +3,8 @@
   "projectName": "personal-branding",
   "displayName": "Personal Branding",
   "teamspace": {
-    "name": "Utkarsh"
+    "name": "Utkarsh",
+    "claudeSyncsPageId": "2eb9dc3f-ea5e-80c1-99e4-cb4b6495b295"
   },
   "syncRules": [
     {
